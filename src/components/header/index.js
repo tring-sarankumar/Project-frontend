@@ -41,7 +41,7 @@ export default function Header({ page, getAllPosts }) {
       <div className="header_left">
         <Link to="/" className="header_logo">
           <div className="circle">
-            <Logo />
+           <h1 style={{color: "#1877F2"}}>SS</h1> 
           </div>
         </Link>
         <div
@@ -53,7 +53,7 @@ export default function Header({ page, getAllPosts }) {
           <Search color={color} />
           <input
             type="text"
-            placeholder="Search Facebook"
+            placeholder="Search SocialSphere"
             className="hide_input"
           />
         </div>

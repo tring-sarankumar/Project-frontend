@@ -51,9 +51,10 @@ export default function LoginForm({ setVisible }) {
   return (
     <div className="login_wrap">
       <div className="login_1">
-        <img src="../../icons/facebook.svg" alt="" />
+        {/* <img src="../../icons/facebook.svg" alt="" /> */}
         <span>
-          Facebook helps you connect and share with the people in your life.
+        <h1 style={{color: "#1877F2"}}>SocialSphere</h1>
+        Connect, Inspire, and be Inspired.
         </span>
       </div>
       <div className="login_2">
